@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified" elementFormDefault="qualified">
+  <xsd:element name="ExchangeRatesSeries">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element minOccurs="0" name="Table" type="xsd:string" />
+        <xsd:element minOccurs="0" name="Currency" type="xsd:string" />
+        <xsd:element minOccurs="0" name="Code" type="xsd:string" />
+        <xsd:element minOccurs="0" name="Rates">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element minOccurs="0" maxOccurs="unbounded" name="Rate">
+                <xsd:complexType>
+                  <xsd:sequence>
+                    <xsd:element minOccurs="0" name="No" type="xsd:string" />
+                    <xsd:element minOccurs="0" name="EffectiveDate" type="xsd:date" />
+                    <xsd:element minOccurs="0" name="Mid" type="xsd:decimal" />
+                  </xsd:sequence>
+                </xsd:complexType>
+              </xsd:element>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xs:schema>

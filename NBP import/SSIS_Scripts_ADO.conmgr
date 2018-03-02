@@ -1,0 +1,14 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="SSIS_Scripts_ADO"
+  DTS:DTSID="{9B208692-FE8E-4766-821D-140E6590B735}"
+  DTS:CreationName="ADO.NET:System.Data.SqlClient.SqlConnection, System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectionString="Data Source=127.0.0.1\SQL2017;User ID=sa;Initial Catalog=SSIS_Scripts;Persist Security Info=True;Application Name=&quot;SSIS-Import XML-{9B208692-FE8E-4766-821D-140E6590B735}127.0.0.1\SQL2017.SSIS_Scripts&quot;;">
+      <DTS:Password
+        DTS:Name="Password"
+        Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAdtd+CdHkvEeX5GLDIPOQngAAAAACAAAAAAADZgAAwAAAABAAAADB1N20QLsEDOoK3TYeprMZAAAAAASAAACgAAAAEAAAAEwMny4v31/02DRYmKvPSXmAAAAAekv6SuP82z2L3FccOcvHdP8VphJHsrg1sg/8iOVnJewca1cigqmTh+2YRiv3TOTq3W4TeBJ5AqJ/FwFCbluBbfD4CpM8UOJoWSNk1jw3yC0XE6+xC8Wp2yLaXcHIP6JOA8dvEvniDkM2SU9GPqTOkqPsernIDKK0Uw+Rm0ZSt8IUAAAAWbC3jt6J+i6k4kZ0KySzKi3f2/U=</DTS:Password>
+    </DTS:ConnectionManager>
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
